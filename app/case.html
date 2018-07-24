@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	            
+<script src="../style/js/jquery-1.11.0.js"></script>
+	    <!--静态库-->
+	    <!--<link rel="stylesheet" href="../style/css/bootstrap.min.css" />	    
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->      
+       <!--本地文件-->
+       <link rel="stylesheet" href="../style/bootstrap/css/bootstrap.min.css" />
+       <script src="../style/js/bootstrap/bootstrap.min.js"></script>
+       <link rel="stylesheet" type="text/css" href="../style/css/font-awesome.min.css"/>
+       <link rel="stylesheet" href="../style/css/02.css" />
+	</head>
+	<body>
+		<!--导航-->
+		<div class="header">
+			
+		
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+          	<div class="navbar-header" >
+          		<a href="#" class="navbar-brand logo"><img src="../style/img/logo2.png" alt="" /></a>
+          	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          	    	<span class="icon-bar"></span>
+          	    	<span class="icon-bar"></span>
+          	    	<span class="icon-bar"></span>
+          	    </button>
+          	</div>
+          	<div class="collapse navbar-collapse" id="navbar-collapse">
+          		<ul class="nav navbar-nav navbar-right" >
+          		<li class=""><a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+          		<li class=""><a href="information.html"><span class="glyphicon glyphicon-list"></span> 资讯</a></li>
+          		<li class="active"><a href="case.html"><span class="glyphicon glyphicon-fire"></span> 案例</a></li>
+          		<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> 关于</a></li>
+          	    </ul>
+          	</div>
+          	
+          </div>	
+      </nav>
+      </div>
+      <!--/导航-->
+     <!--/主体-->
+    <div class="body">
+        <div class="jumbotron">
+        	<div class="container">
+        		<hgroup>
+        			<h1>成长</h1>
+        		    <h4>成长才是最重要的事情</h4>
+        		</hgroup>
+        		
+        	</div>
+        </div> 	
+        <div id="case">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        				<div class="thumbnail">
+        					<img src="../style/img/zixun.jpg" alt="" />
+        						<div class="caption">
+        							<h4>每天进步</h4>
+        							<p>不断超越自己</p>
+        						</div>
+        				</div>
+        			</div>
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<div class="thumbnail">
+							<img src="../style/img/zixun.jpg" alt="" />
+							<div class="caption">
+								<h4>每天进步</h4>
+								<p>不断超越自己</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<div class="thumbnail">
+							<img src="../style/img/zixun.jpg" alt="" />
+							<div class="caption">
+								<h4>每天进步</h4>
+								<p>不断超越自己</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<div class="thumbnail">
+							<img src="../style/img/zixun.jpg" alt="" />
+							<div class="caption">
+								<h4>每天进步</h4>
+								<p>不断超越自己</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<div class="thumbnail">
+							<img src="../style/img/zixun.jpg" alt="" />
+							<div class="caption">
+								<h4>每天进步</h4>
+								<p>不断超越自己</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<div class="thumbnail">
+							<img src="../style/img/zixun.jpg" alt="" />
+							<div class="caption">
+								<h4>每天进步</h4>
+								<p>不断超越自己</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<div class="thumbnail">
+							<img src="../style/img/zixun.jpg" alt="" />
+							<div class="caption">
+								<h4>每天进步</h4>
+								<p>不断超越自己</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+						<div class="thumbnail">
+							<img src="../style/img/zixun.jpg" alt="" />
+							<div class="caption">
+								<h4>每天进步</h4>
+								<p>不断超越自己</p>
+							</div>
+						</div>
+					</div>
+
+        		</div>
+            </div>
+     
+     <!--/主体-->
+      <script type="text/javascript">
+//    	$(function(){
+//    		console.log($('.carousel-inner-img').height());
+//
+//    	});
+        	$(function(){
+      	 	//轮播图播放
+      	 	$('#myCarousel').carousel({
+      	 		interval:4000,//毫秒
+      	 	});
+//    	 	//设置垂直居中
+//    	 	$('.carousel-control').css('line-height',$('.carousel-inner img').height()+"px");
+//    	 	$(window).resize(function(){
+//    	 		var $height = $('.carousel-inner img').eq(0).height()||
+//    	 		 			$('.carousel-inner img').eq(1).height()||
+//    	 		 			$('.carousel-inner img').eq(2).height();
+//    	 		$('.carousel-control').css('line-height',$height+"px");
+//    	 		
+//    	 	})
+//
+//    	 		
+
+//设置文字垂直居中,谷歌浏览器加载图片的顺序问题，导致图片的高度无法获取
+// 	 	alert($(".auto").eq(0).height());//获取图片度
+// 	 	alert($(".text").eq(0).height());//文字框高度
+        $(window).load(function(){
+        	$('.text').css('margin-top',($(".auto").eq(0).height()-$(".text").eq(0).height())/2+'px');
+        	
+        });
+        $(window).resize(function(){
+        	$('.text').css('margin-top',($(".auto").eq(0).height()-$(".text").eq(0).height())/2+'px');
+        	
+        });
+         $(window).load(function(){
+        	$('.text').css('margin-top',($(".auto").eq(1).height()-$(".text").eq(0).height())/2+'px');
+        	
+        });
+        $(window).resize(function(){
+        	$('.text').css('margin-top',($(".auto").eq(1).height()-$(".text").eq(0).height())/2+'px');
+        	
+        });
+
+      	});
+     
+      </script>
+      
+     <!--底部-->
+      <div id="footer">
+          <div class="container">
+          	<p>黔东南 | 东方新世纪 | 国字号</p>
+          	<p>黔ICP 备8934574367. @ 2007-2020 黔东南科技 . Powered by Bootstrap.</p>
+          </div>
+      </div>
+     <!--/底部-->
+      
+	</body>
+</html>

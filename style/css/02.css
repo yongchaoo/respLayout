@@ -1,0 +1,337 @@
+@charset "utf-8";
+.logo{
+	padding-top:10px ;
+}
+#myCarousel{
+	margin:50px 0 0 0;
+}
+#myCarousel ul{
+	margin-top:0;
+}
+.carousel-inner img{
+	margin:0 auto;
+}
+.carousel-control {
+
+	
+}
+.tab1{
+	margin: 30px 0;
+	color: #666;
+}
+.tab-p{
+	text-align: center;
+	font-size: 18px;
+	color: #999;
+	margin: 20px 0 40px 0 ;
+	
+}
+.tab-h2{
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #0059b2;
+	
+}
+.tab1 .text-muted{
+	color: #999;
+	text-decoration: line-through;
+	
+}
+.tab1 .media-heading{
+	padding: 37px 0 10px 0px;
+}
+.tab1 .media{
+	padding: 0px;
+	
+}
+.tab1 .col{
+	padding: 5px;
+	margin: 0 auto;
+}
+.tab1 .media-body p {
+	padding:0px 0  0  0px;
+	
+	text-align: left;
+}
+
+.tab1 .row{
+
+}
+
+
+.tab2{
+	background: #eee;
+	padding: 30px 20px ;
+	text-align: center;
+	
+}
+.tab3{	
+	padding: 20px 20px ;
+	text-align: center;
+	
+}
+.tab2 img {
+	width: 40%;
+	height: 40%;
+
+}
+.tab3 img {
+	width: 40%;
+	height: 40%;
+
+	
+}
+.text h3{
+	font-size:20px ;
+}
+.text p{
+	font-size:12px ;
+}
+
+.jumbotron{
+
+	background-image: url(../img/bg.jpg);
+	margin: 50px 0 0 0;
+	color: #ccc;
+}
+.jumbotron h1{
+	font-size: 26px;
+	padding:0 0 0 20px;
+}
+.jumbotron h4{
+	font-size: 14px;
+	padding:0 0  0 20px;
+}
+
+#information{
+	background: #eee;
+	padding: 40px 0;
+}
+.info-content{
+	background: #fff;
+	margin: 0 0 20px 0 ;
+	box-shadow: 2px 2px 3px #ccc;
+	
+	
+}
+.info-content img{
+	margin: 12px 0;
+}
+.info-content h4{
+	padding: 2px 0 0 0 ;
+	color: #333;
+}
+
+.info-content p{
+    line-height: 1.6;//1.6倍行高
+}
+.info-right{
+	background:#fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.info-right blockquote{
+	margin: 0;
+	padding: 0;
+}
+.info-right h2{
+	
+	font-size: 20px;
+	color: #333;
+	padding: 5px;
+}
+.info-right h4{		
+	padding-top: 5px;
+	line-height: 1.6;
+}
+#case{
+	padding: 40px 40px;
+	margin: 0px ;
+}
+#case h4{
+	color: #666;
+}
+#case p{
+	color: #666;
+	line-height: 1.6;
+}
+#case h4,p{
+	text-align: center;
+}
+#about{
+	background: #eee;
+	padding: 40px 0px;
+}
+#about a {
+	color:#0059B2 ;
+	
+}
+#about .about{
+	background: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+
+}
+#about h3 {
+	color:#333 ;
+	font-size: 18px;
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+	margin: 0 0 10px 0  ;
+	
+}
+#about p{
+	padding-left:10px ;
+	line-height: 2;
+	font-size:13px ;
+	
+}
+#about p,h3{
+	text-align: left;
+}
+
+#footer{
+	background: #666;
+	border-top: 1px solid #ccc;
+		padding: 14px ;
+	
+}
+#footer p{
+	text-align: center;
+
+	color: #eee;
+	
+}
+
+/*没有小于768培训，是因为bootstrap以移动端优先设计*/
+/*小屏幕（平板，大于等于768px）*/
+@media(min-width:768px){
+	.tab-p{
+	font-size: 16px;		
+    }
+    .tab-h2{
+	font-size: 26px;
+    }
+    .tab1 .col{
+	padding: 16px;
+    }
+    .text h3{
+	font-size:20px ;
+    }
+    .text p{
+	font-size:12px ;
+    }
+    
+    .jumbotron h1{
+	font-size: 26px;
+    }
+    .jumbotron h4{
+	font-size: 14px;
+    }
+    .info-content h4{
+	    font-size: 16px;
+    	
+    }
+    #about h3 {
+	font-size: 18px;		
+	}
+	#about p{
+		font-size:13px ;
+		
+	}
+    
+}
+/*中等屏幕（桌面显示器，大于等于992px）*/
+@media(min-width:992px){
+	.tab-p{
+	font-size: 17px;		
+    }
+    .tab-h2{
+	font-size: 28px;
+    }
+    .tab1 .col{
+	padding: 18px;
+    }
+    
+    .text h3{
+	font-size:24px ;
+    }
+   .text p{
+	font-size:16px ;
+    }
+    .tab2-text{
+    	float: left;
+    }
+    .tab2-img{
+    	float: right;
+    }
+    
+    .jumbotron h1{
+	font-size: 30px;
+    }
+    .jumbotron h4{
+	font-size: 14px;
+    }
+    .info-content h4{
+	    font-size: 18px;
+	    overflow:hidden ;
+	    white-space: nowrap;
+	    text-overflow:ellipsis ;/*点点*/
+	    
+    	
+    }
+    #about h3 {
+	font-size: 20px;		
+	}
+	#about p{
+		font-size:15px ;
+		
+	}
+}
+
+/*大屏幕（大屏幕显示器，大于等于1200px）*/
+@media(min-width:1200px){
+   .tab-p{
+	font-size: 18px;		
+    }
+    .tab-h2{
+	font-size: 30px;
+    }
+    .tab1 .col{
+	padding: 20px;
+    }
+    .text h3{
+	font-size:26px;
+    }
+    .text p{
+	font-size:18px;
+    }
+    .tab2-text{
+    	float: left;
+    }
+    .tab2-img{
+    	float: right;
+    }
+    
+    .jumbotron h1{
+	    font-size: 36px;
+    }
+    .jumbotron h4{
+	   font-size: 18px;
+    }
+    .info-content h4{
+	    font-size: 20px;
+    	
+    }
+    
+    #about h3 {
+	font-size: 22px;		
+	}
+	#about p{
+		font-size:16px ;
+		
+	}
+}
+
+
+
+
